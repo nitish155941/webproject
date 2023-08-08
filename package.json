@@ -1,0 +1,19 @@
+{
+  "name": "expapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "nodemon": "nodemon app.js"
+  },
+  "author": "Nitish Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.1",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "nodemon": "^3.0.1",
+    "react-icons": "^4.10.1",
+    "requests": "^0.3.0"
+  }
+}

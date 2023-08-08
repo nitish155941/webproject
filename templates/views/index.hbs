@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-R2T2Nq8Y6YirwG1MvZGwTYF14sU0oc2NKP25djJY6cfUvzD73U+hAd2n7JH+y+qip5QkAQF1ZyC0jc44uvjTQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    {{headerLinks}}
+</head>
+<body>
+    {{>header}}
+    <br/>
+    <br/>
+    <hr/>
+    <div class="login-container">
+        <h1>Login</h1>
+        <form action="#" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br/>
+            <br/>
+            <label for="password">Passwrd</label>
+            <input type="password" id="password" name="password" required>
+            <br/>
+            <br/>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+<br/>
+<br/>
+<hr/>
+    {{>footer}}
+</body>
+</html>
+
+
+
+{{!-- 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    
+    <div class="login-container">
+        <h1>Login</h1>
+        <form action="#" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+</html> --}}
